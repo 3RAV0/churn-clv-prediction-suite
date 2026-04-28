@@ -216,3 +216,34 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+models/*
+!models/.gitkeep
+
+reports/shap_plots/*
+!reports/shap_plots/.gitkeep
+
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+.env
+.env.local
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+
+logs/
+*.log
+
+mlruns/
+wandb/
+
